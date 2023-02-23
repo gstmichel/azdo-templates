@@ -1,0 +1,9 @@
+trigger:
+  - "*"
+
+pr: []
+
+jobs:
+  - template: ../git-mirror.jobs.v1.yml
+    parameters:
+      remote_url: git@github.com:gstmichel/azdo-templates.git
